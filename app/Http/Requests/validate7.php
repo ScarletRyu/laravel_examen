@@ -24,7 +24,11 @@ class validate7 extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name' => 'required|min:2|max:20',
+            'email' => 'required',
+            'password' => 'required|min:8|max:10',
+            'likes' => 'required',
+            
         ];
     }
 }
