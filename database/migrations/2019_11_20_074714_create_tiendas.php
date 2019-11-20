@@ -15,8 +15,8 @@ class CreateTiendas extends Migration
     {
         Schema::create('tiendas', function (Blueprint $table) {
             $table->bigIncrements('id', 20);
-            $table->string('name', 20);
-            $table->string('description');
+            $table->string('name', 20)->unique();
+            $table->longText('description');
             $table->string('password', 255);
             $table->string('email', 50);
             $table->bigIncrements('likes', 11);

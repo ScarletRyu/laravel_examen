@@ -21,3 +21,13 @@ Route::get('/', function () {
 Route::get('tiendas/create','ShopController@create')->name('tiendas.create');
 Route::post('tiendas/store','ShopController@store')->name('tiendas.store');
 Route::get('productos/index','ProductController@index')->name('productos.index');
+
+// Ruta para vistasindiseño //
+Route::get('vistasindiseño', function () {
+    return view('vistasindiseño');
+});
+
+//Listado productos //
+Route::get('/productos', function () {
+    return view('productos/index');
+});

@@ -9,12 +9,15 @@
     <div class="flex-center position-ref full-height">
         <div class="content">
             <div class="title m-b-md">
-                Relations
+                Examen
             </div>
 
             <div class="links">
                 <a href="">Menu</a>
                 <a href="git">git</a>
+                <a href="vistasindiseño">Añadir tienda</a>
+                <a href="listadoprod">Listado Productos</a>
+                
 
             </div>
             <hr><br><br>
